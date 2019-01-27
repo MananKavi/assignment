@@ -1,8 +1,8 @@
 import cmath
 
-a = input("Enter a : ")
-b = input("Enter b : ")
-c = input("Enter c : ")
+a: int = input("Enter a : ")
+b: int = input("Enter b : ")
+c: int = input("Enter c : ")
 
 d: int = (int(b) ** 2) - (4 * int(a) * int(c))
 
