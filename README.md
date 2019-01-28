@@ -1,3 +1,3 @@
-# assignment
-It is an assignment repo of python.
-All programs are written in Python 3.
+#assignment
+1. It is an assignment repo of python.
+2. All programs are written in Python 3.
