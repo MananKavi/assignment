@@ -1,4 +1,4 @@
-temperature = input("Enter temperature in Celcius : ")
+temperature = input("Enter temperature in Celsius : ")
 
 fahrenheit = (1.8 * int(temperature)) + 32
 
