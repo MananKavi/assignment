@@ -1,9 +1,14 @@
-num_words = 0
+# Program to count number of alphabets and digits in file.
+fileReader = open("resource.txt", "r")
+words = fileReader.read()
 
-with open("resource.txt", "r") as f:
-    for line in f:
-        words = line.split()
-        num_words += len(words)
+letterCount = 0
+numberCount = 0
+for c in words:
+	if c.isalpha():
+		letterCount += 1
+	elif c.isnumeric():
+		numberCount += 1
 
-print("Number of words is", num_words)
-print()
+print("Number of alphabets is", letterCount)
+print("Number of digits is", numberCount)
